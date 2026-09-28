@@ -1,0 +1,28 @@
+# Credentials / secrets
+config/gcp/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Airflow runtime
+logs/
+
+# Local staging / generated files
+/tmp/
+*.jsonl
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
